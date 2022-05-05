@@ -8,8 +8,7 @@
 		<div>
 			<LeftCol />
 		</div>
-		<div class="px-10 py-5">
-
+		<div class="md:px-10 px-5 py-5">
 			<RightCol />
 		</div>
 	</div>
