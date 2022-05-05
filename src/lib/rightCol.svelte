@@ -1,4 +1,4 @@
-<div class="text-white py-10 px-7">
+<div class="text-white py-10 md:px-7 px-3">
 	<h2 class="text-4xl font-extralight text-center py-5">Login</h2>
 	<form action="/" method="post" class="space-y-5">
 		<input type="email" name="email" id="" placeholder="Email" class="input" required />
