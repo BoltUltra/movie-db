@@ -8,7 +8,7 @@
 		<img
 			src={`https://image.tmdb.org/t/p/w500${movie.poster_path}`}
 			alt={movie.title}
-			class="w-44 rounded-lg cursor-pointer"
+			class="rounded-lg cursor-pointer"
 		/>
 	</a>
 
@@ -17,3 +17,6 @@
 		<p class="font-light">{movie.release_date}</p>
 	</div>
 </div>
+
+<style>
+</style>
