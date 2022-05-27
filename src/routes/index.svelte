@@ -1,15 +1,25 @@
-<script>
-	import LeftCol from '../lib/leftCol.svelte';
-	import RightCol from '../lib/rightCol.svelte';
+<script context="module">
+	export async function load({ fetch }) {
+		const res = await fetch(
+			'https://api.themoviedb.org/3/movie/popular?api_key=3d16c511eb1d13db73e0aca6a13d3365&language=en-US&page=1'
+		);
+		const data = await res.json();
+
+		if (res.ok) {
+			return {
+				props: {
+					popular: data.results
+				}
+			};
+		}
+	}
 </script>
 
-<div class="mx-10 rounded-xl login flex place-self-center mt-24">
-	<div class="grid md:grid-cols-2">
-		<div>
-			<LeftCol />
-		</div>
-		<div class="md:px-10 px-5 py-5">
-			<RightCol />
-		</div>
-	</div>
+<script>
+	import MovieList from '../lib/movieList.svelte';
+	export let popular;
+</script>
+
+<div>
+	<MovieList {popular} />
 </div>
