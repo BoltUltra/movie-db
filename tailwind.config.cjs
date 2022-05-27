@@ -19,6 +19,9 @@ const config = {
 			// => @media (min-width: 1536px) { ... }
 		},
 		extend: {
+			fontFamily: {
+				overpass: ['Overpass', 'sans-serif']
+			},
 			colors: {
 				root: '#060606',
 				primary: '#8367E9',

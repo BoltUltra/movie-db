@@ -1,10 +1,9 @@
 <script>
 	export let movie;
-	console.log(movie);
 </script>
 
 <div class="movie-card transition ease-in-out hover:scale-110 duration-300">
-	<a href={`https://image.tmdb.org/t/p/w500${movie.poster_path}`} target="_blank">
+	<a href={'/movies/' + movie.id} target="">
 		<img
 			src={`https://image.tmdb.org/t/p/w500${movie.poster_path}`}
 			alt={movie.title}
