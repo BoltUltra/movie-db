@@ -27,19 +27,27 @@
 	</div>
 	<div class="text-container space-y-3 md:mx-28">
 		<h1 class="font-bold pt-3 text-lg md:text-xl">{movieDetail.title}</h1>
-		<p class="overview text-justify text-sm md:text-base">{movieDetail.overview}</p>
-		<div class="space-y-1 text-sm md:text-base">
+		<p class="overview text-justify text-sm md:text-base font-light">{movieDetail.overview}</p>
+		<div class="space-y-1 text-sm md:text-base font-extralight">
 			<p>
-				<span class=""><i class="fa fa-calendar mr-2" /></span>Release Date: {movieDetail.release_date}
+				<span class="font-bold"
+					><i class="fa fa-calendar mr-2 " />Release Date:
+				</span>{movieDetail.release_date}
 			</p>
 			<p>
-				<span class=""><i class="fas fa-sack-dollar mr-2" /></span>Budget: ${movieDetail.budget}
+				<span class="font-bold"
+					><i class="fas fa-sack-dollar mr-2" />Budget:
+				</span>${movieDetail.budget}
 			</p>
 			<p>
-				<span class=""><i class="fa fa-star mr-2" /></span>Rating: {movieDetail.vote_average}
+				<span class="font-bold"
+					><i class="fa fa-star mr-2" />Rating:
+				</span>{movieDetail.vote_average}
 			</p>
 			<p>
-				<span class=""><i class="fa fa-clock mr-2" /></span>Runtime: {movieDetail.runtime}mins
+				<span class="font-bold"
+					><i class="fa fa-clock mr-2" />Runtime:
+				</span>{movieDetail.runtime}mins
 			</p>
 		</div>
 	</div>
