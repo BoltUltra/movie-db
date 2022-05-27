@@ -24,7 +24,7 @@ const config = {
 			},
 			colors: {
 				root: '#060606',
-				primary: '#8367E9',
+				primary: '#181A1B',
 				card: '#26262B',
 				underline: '#99C2FF',
 				border: '#032343'
