@@ -3,7 +3,14 @@
 	import '../neuphormism.css';
 </script>
 
-<header />
+<svelte:head>
+	<title>Movie DB</title>
+</svelte:head>
+<header>
+	<nav class="text-center my-5">
+		<i class="fas fa-database mr-2" /><a href="/">Movie Database</a>
+	</nav>
+</header>
 <main>
 	<slot />
 </main>
