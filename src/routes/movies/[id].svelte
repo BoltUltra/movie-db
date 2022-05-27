@@ -26,7 +26,7 @@
 			class="rounded md:w-[80%] md:mx-auto"
 		/>
 	</div>
-	<div class="text-container space-y-3 mx-28">
+	<div class="text-container space-y-3 md:mx-28">
 		<h1 class="font-bold pt-3 text-lg md:text-xl">{movieDetail.title}</h1>
 		<p class="overview text-justify text-sm md:text-base">{movieDetail.overview}</p>
 		<div class="space-y-1 text-sm md:text-base">

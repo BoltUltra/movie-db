@@ -11,7 +11,7 @@
 		/>
 	</a>
 
-	<div class="description text-xs">
+	<div class="description text-xs my-3">
 		<h1 class="font-semibold">{movie.title}</h1>
 		<p class="font-light">{movie.release_date}</p>
 	</div>
